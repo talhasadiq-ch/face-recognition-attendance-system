@@ -1,0 +1,16 @@
+opencv-python==4.10.0.84
+dlib-bin==20.0.1
+face_recognition==1.3.0
+numpy==1.26.4
+pandas==2.2.2
+streamlit==1.38.0
+
+# NOTE: face_recognition depends on dlib, which compiles from C++ source.
+# On Windows, install "CMake" and "Visual Studio Build Tools (C++)" first.
+# On Mac: brew install cmake
+# On Linux: sudo apt install build-essential cmake
+#
+# If dlib install fails, try:
+#   pip install cmake
+#   pip install dlib
+#   pip install face_recognition

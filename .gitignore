@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Personal / generated data - never commit real face photos or attendance logs
+dataset/
+encodings/
+attendance/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Streamlit
+.streamlit/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*.log
+
+# Keep folder structure without committing contents
+!dataset/.gitkeep
+!encodings/.gitkeep
+!attendance/.gitkeep
